@@ -88,7 +88,7 @@ figure3 <- ggplot(data = USDA, aes(y = Clay,
       ) +
       guides(fill = "none")
 
-ggsave("figures/figure3.tiff",dpi = 500, device="tiff", figure3)
+ggsave("figures/figure3.png",dpi = 300, device="png", figure3)
     
 
 
