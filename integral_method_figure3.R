@@ -28,7 +28,7 @@ USDA_text
 
 # ggplot ------------------------------------------------------------------
 
-ggplot(data = USDA, aes(y = Clay,
+figure3 <- ggplot(data = USDA, aes(y = Clay,
                         x = Sand,
                         z = Silt)) +
   coord_tern(L = "x", T = "y", R = "z") +
@@ -87,6 +87,8 @@ ggplot(data = USDA, aes(y = Clay,
         legend.position = "bottom"
       ) +
       guides(fill = "none")
+
+ggsave("figures/figure3.tiff",dpi = 500, device="tiff", figure3)
     
 
 
