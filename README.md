@@ -2,4 +2,4 @@
 
 ![Plot1](https://github.com/Saryace/integral_method_figure3/blob/master/figures/figure3.png)
 
-[Code here](https://github.com/Saryace/integral_method_figure3/blob/master/integral_method_figure3.R)
+## [Code here](https://github.com/Saryace/integral_method_figure3/blob/master/integral_method_figure3.R)
